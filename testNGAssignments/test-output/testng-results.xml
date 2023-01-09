@@ -2,76 +2,60 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-28T01:32:48 IST" name="Default suite" finished-at="2022-11-28T01:32:48 IST" duration-ms="53">
+  <suite started-at="2022-12-31T00:33:19 IST" name="Default suite" finished-at="2022-12-31T00:35:04 IST" duration-ms="104934">
     <groups>
     </groups>
-    <test started-at="2022-11-28T01:32:48 IST" name="Default test" finished-at="2022-11-28T01:32:48 IST" duration-ms="53">
-      <class name="TestOne.DataProviderEgFour">
-        <test-method signature="addition(java.lang.Integer,java.lang.Integer)[pri:1, instance:TestOne.DataProviderEgFour@7e07db1f]" started-at="2022-11-28T01:32:48 IST" name="addition" data-provider="dpOne" finished-at="2022-11-28T01:32:48 IST" duration-ms="7" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[55]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[66]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2022-12-31T00:33:19 IST" name="Default test" finished-at="2022-12-31T00:35:04 IST" duration-ms="104934">
+      <class name="testNGAssignmentPrograms.AssgOne">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGAssignmentPrograms.AssgOne@4ec4f3a0]" started-at="2022-12-31T00:33:19 IST" name="beforeMethod" finished-at="2022-12-31T00:33:56 IST" duration-ms="37041" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addition -->
-        <test-method signature="addition(java.lang.Integer,java.lang.Integer)[pri:1, instance:TestOne.DataProviderEgFour@7e07db1f]" started-at="2022-11-28T01:32:48 IST" name="addition" data-provider="dpOne" finished-at="2022-11-28T01:32:48 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[33]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[88]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheLoginCredentialsAreValidOrNot()[pri:1, instance:testNGAssignmentPrograms.AssgOne@4ec4f3a0]" started-at="2022-12-31T00:33:56 IST" name="verifyTheLoginCredentialsAreValidOrNot" finished-at="2022-12-31T00:34:00 IST" duration-ms="3904" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addition -->
-        <test-method signature="subtratcion(java.lang.Integer,java.lang.Integer)[pri:2, instance:TestOne.DataProviderEgFour@7e07db1f]" started-at="2022-11-28T01:32:48 IST" name="subtratcion" data-provider="dpTwo" finished-at="2022-11-28T01:32:48 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[22]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[77]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- verifyTheLoginCredentialsAreValidOrNot -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGAssignmentPrograms.AssgOne@4ec4f3a0]" started-at="2022-12-31T00:34:00 IST" name="afterMethod" finished-at="2022-12-31T00:34:00 IST" duration-ms="261" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subtratcion -->
-        <test-method signature="subtratcion(java.lang.Integer,java.lang.Integer)[pri:2, instance:TestOne.DataProviderEgFour@7e07db1f]" started-at="2022-11-28T01:32:48 IST" name="subtratcion" data-provider="dpTwo" finished-at="2022-11-28T01:32:48 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[99]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[11]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGAssignmentPrograms.AssgOne@4ec4f3a0]" started-at="2022-12-31T00:34:00 IST" name="beforeMethod" finished-at="2022-12-31T00:34:16 IST" duration-ms="15282" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- subtratcion -->
-      </class> <!-- TestOne.DataProviderEgFour -->
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheLoginCredentialsAreInvalidOrNot()[pri:2, instance:testNGAssignmentPrograms.AssgOne@4ec4f3a0]" started-at="2022-12-31T00:34:16 IST" name="verifyTheLoginCredentialsAreInvalidOrNot" finished-at="2022-12-31T00:34:20 IST" duration-ms="4453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheLoginCredentialsAreInvalidOrNot -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGAssignmentPrograms.AssgOne@4ec4f3a0]" started-at="2022-12-31T00:34:20 IST" name="afterMethod" finished-at="2022-12-31T00:34:20 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGAssignmentPrograms.AssgOne@4ec4f3a0]" started-at="2022-12-31T00:34:20 IST" name="beforeMethod" finished-at="2022-12-31T00:34:37 IST" duration-ms="16195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyTheDashboardPageIsDisplayedAfterLoginOrNot()[pri:3, instance:testNGAssignmentPrograms.AssgOne@4ec4f3a0]" started-at="2022-12-31T00:34:37 IST" name="verifyTheDashboardPageIsDisplayedAfterLoginOrNot" finished-at="2022-12-31T00:34:40 IST" duration-ms="3280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheDashboardPageIsDisplayedAfterLoginOrNot -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGAssignmentPrograms.AssgOne@4ec4f3a0]" started-at="2022-12-31T00:34:40 IST" name="afterMethod" finished-at="2022-12-31T00:34:40 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGAssignmentPrograms.AssgOne@4ec4f3a0]" started-at="2022-12-31T00:34:40 IST" name="beforeMethod" finished-at="2022-12-31T00:34:57 IST" duration-ms="16841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAdminIsDisplayedInSystemUsersOrNot()[pri:4, instance:testNGAssignmentPrograms.AssgOne@4ec4f3a0]" started-at="2022-12-31T00:34:57 IST" name="verifyAdminIsDisplayedInSystemUsersOrNot" finished-at="2022-12-31T00:35:04 IST" duration-ms="6956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAdminIsDisplayedInSystemUsersOrNot -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGAssignmentPrograms.AssgOne@4ec4f3a0]" started-at="2022-12-31T00:35:04 IST" name="afterMethod" finished-at="2022-12-31T00:35:04 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testNGAssignmentPrograms.AssgOne -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
